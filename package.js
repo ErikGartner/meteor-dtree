@@ -1,6 +1,6 @@
 Package.describe({
   name: 'smoiz:dtree',
-  version: '1.2.0',
+  version: '1.2.1',
   // Brief, one-line summary of the package.
   summary: 'A Meteor package wrapper for my graph library dTree.',
   // URL to the Git repository containing the source code for this package.
@@ -13,6 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
+  api.use('stevezhu:lodash');
+  api.use('d3js:d3');
   api.addFiles('dTree.min.js', ['client', 'server']);
   api.addFiles('client.js', ['client']);
   api.addFiles('server.js', ['server']);
