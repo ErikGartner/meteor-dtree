@@ -7,6 +7,7 @@ blaze-tools@1.0.4
 boilerplate-generator@1.0.4
 callback-hook@1.0.4
 check@1.1.0
+d3js:d3@3.5.8
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.2
@@ -21,7 +22,7 @@ html-tools@1.0.5
 htmljs@1.0.5
 id-map@1.0.4
 jquery@1.11.4
-local-test:smoiz:dtree@1.2.0
+local-test:smoiz:dtree@1.2.1
 logging@1.0.8
 meteor@1.1.10
 minimongo@1.0.10
@@ -35,9 +36,10 @@ random@1.0.5
 reactive-var@1.0.6
 retry@1.0.4
 routepolicy@1.0.6
-smoiz:dtree@1.2.0
+smoiz:dtree@1.2.1
 spacebars@1.0.7
 spacebars-compiler@1.0.7
+stevezhu:lodash@4.5.1
 tinytest@1.0.6
 tracker@1.0.9
 ui@1.0.8

@@ -13,8 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
-  api.use('stevezhu:lodash');
-  api.use('d3js:d3');
+  api.use('stevezhu:lodash@4.5.1');
+  api.use('d3js:d3@3.5.8');
   api.addFiles('dTree.min.js', ['client', 'server']);
   api.addFiles('client.js', ['client']);
   api.addFiles('server.js', ['server']);
