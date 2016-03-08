@@ -5,7 +5,7 @@
 
 ## Installation
 ```
-meteor add smoiz:dTree
+meteor add smoiz:dtree
 ```
 
 ## Usage

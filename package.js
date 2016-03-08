@@ -1,6 +1,6 @@
 Package.describe({
   name: 'smoiz:dtree',
-  version: '1.2.2',
+  version: '1.3.0',
   // Brief, one-line summary of the package.
   summary: 'A Meteor package wrapper for my graph library dTree.',
   // URL to the Git repository containing the source code for this package.
